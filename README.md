@@ -35,6 +35,16 @@ Just Vanilla JavaScript.
 5. Open app.js.
 6. Complete every 🚧 TASK.
 
+## Note
+
+Your OpenWeatherMap API key is for development only.
+
+Before pushing your code to GitHub, replace your API key with:
+
+const apiKey = "YOUR_API_KEY";
+
+Anyone cloning your repository should use their own API key.
+
 ---
 
 # ⭐ Bonus Challenge (Optional)
