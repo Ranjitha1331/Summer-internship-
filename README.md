@@ -35,4 +35,54 @@ Just Vanilla JavaScript.
 5. Open app.js.
 6. Complete every 🚧 TASK.
 
+---
+
+# ⭐ Bonus Challenge (Optional)
+
+Finished early? Enhance your Weather Dashboard by implementing the following features.
+
+## 1️⃣ Loading Indicator
+
+Display a loading spinner or a **"Loading..."** message while the weather data is being fetched.
+
+**Expected Behavior**
+- Show the loader immediately after clicking **Search**.
+- Hide the loader once the API response is received.
+- Hide the loader if an error occurs.
+
+---
+
+## 2️⃣ Error Handling
+
+Improve the user experience by handling invalid inputs and API failures.
+
+**Requirements**
+- Display an error message if the city does not exist.
+- Handle network errors gracefully.
+- Prevent the application from crashing.
+- Hide the previous weather details when an error occurs.
+
+---
+
+## 3️⃣ Deploy Your Project
+
+Once your Weather App is complete:
+
+1. Push your project to GitHub.
+2. Enable **GitHub Pages** from the repository settings.
+3. Verify that your deployed application works correctly.
+4. Submit the following:
+   - GitHub Repository URL
+   - GitHub Pages Live URL
+
+---
+
+## 🎯 Bonus Learning Outcomes
+
+By completing this challenge, you will learn:
+- Loading states
+- Error handling
+- User experience improvements
+- Deploying static websites using GitHub Pages
+
 Good luck!
