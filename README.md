@@ -35,15 +35,97 @@ Just Vanilla JavaScript.
 5. Open app.js.
 6. Complete every 🚧 TASK.
 
-## Note
+# 🔑 Getting Your OpenWeatherMap API Key
 
-Your OpenWeatherMap API key is for development only.
+Follow these steps to create a free OpenWeatherMap API key before starting the assignment.
 
-Before pushing your code to GitHub, replace your API key with:
+---
 
+## Step 1: Create an Account
+
+1. Go to **https://openweathermap.org/**
+2. Click **Sign Up**.
+3. Create a free account.
+4. Verify your email address.
+
+---
+
+## Step 2: Generate an API Key
+
+1. Log in to your OpenWeatherMap account.
+2. Click on your profile (top-right).
+3. Navigate to **My API Keys**.
+4. Create a new API key (or use the default key already provided).
+5. Copy the generated API key.
+
+Example:
+
+```text
+a1b2c3d4e5f6g7h8i9j0...
+```
+
+---
+
+## Step 3: Add the API Key
+
+Open **app.js** and replace:
+
+```javascript
 const apiKey = "YOUR_API_KEY";
+```
 
-Anyone cloning your repository should use their own API key.
+with your own API key:
+
+```javascript
+const apiKey = "PASTE_YOUR_API_KEY_HERE";
+```
+
+---
+
+## Step 4: Wait for Activation
+
+> **Note**
+>
+> A newly created API key may take **5–15 minutes** (sometimes longer) to become active.
+>
+> If you receive an **"Invalid API key"** error immediately after creating it, wait a few minutes and try again.
+
+---
+
+## Step 5: Test Your API Key
+
+Replace:
+
+- `<CITY_NAME>` with a city name (e.g., `Bangalore`)
+- `<API_KEY>` with your API key
+
+Open the following URL in your browser:
+
+```text
+https://api.openweathermap.org/data/2.5/weather?q=<CITY_NAME>&appid=<API_KEY>&units=metric
+```
+
+Example:
+
+```text
+https://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=YOUR_API_KEY&units=metric
+```
+
+If your API key is working, you should receive a JSON response containing the current weather data.
+
+---
+
+## ⚠️ Important
+
+- Keep your API key private.
+- **Do not commit your personal API key to a public GitHub repository.**
+- Before pushing your code to GitHub, replace your key with:
+
+```javascript
+const apiKey = "YOUR_API_KEY";
+```
+
+Anyone cloning your repository should use **their own** API key.
 
 ---
 
